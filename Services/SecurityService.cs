@@ -34,7 +34,6 @@ namespace WebApi.Services
             if (string.IsNullOrWhiteSpace(nonceQuery) || !Int32.TryParse(nonceQuery, out nonce))
             {
                 await context.Response.WriteAsync("Query string Nonce is required.");
-                await _next(context);
 
                 return;
             }
@@ -44,7 +43,6 @@ namespace WebApi.Services
             if (string.IsNullOrWhiteSpace(timestampQuery) || !Int32.TryParse(timestampQuery, out timestamp))
             {
                 await context.Response.WriteAsync("Query string Timestamp is required.");
-                await _next(context);
 
                 return;
             }
@@ -52,7 +50,6 @@ namespace WebApi.Services
             if (string.IsNullOrWhiteSpace(signatureQuery))
             {
                 await context.Response.WriteAsync("Query string Signature is required.");
-                await _next(context);
 
                 return;
             }

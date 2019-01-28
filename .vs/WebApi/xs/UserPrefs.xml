@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{E8B529B9-1DDE-4ED4-9505-8859F3CF3C81}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/SecurityService.cs">
     <Files>
-      <File FileName="Startup.cs" Line="71" Column="35" />
-      <File FileName="Services/SecurityService.cs" Line="66" Column="13" />
+      <File FileName="Startup.cs" Line="64" Column="31" />
+      <File FileName="Services/SecurityService.cs" Line="37" Column="17" />
       <File FileName="Entities/RequestData.cs" Line="7" Column="32" />
       <File FileName="Services/UserService.cs" Line="35" Column="33" />
       <File FileName="Controllers/UsersController.cs" Line="36" Column="30" />
